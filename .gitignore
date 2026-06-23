@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+system_config.json
+
+# Browser and driver state
+.drivers/
+
+# Runtime output and private application data
+data/*.csv
+pipeline_runs.csv
+system.log
+system/*.db
+proposal writer agent/generated proposals/*.txt
+proposal submit agent/generated proposals/*.txt
+
+# Keep output directories in fresh clones
+!data/.gitkeep
+!proposal writer agent/generated proposals/.gitkeep
+!proposal submit agent/generated proposals/.gitkeep
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
