@@ -123,11 +123,6 @@ Common settings:
 
 You can also edit these values from the dashboard's **Configs** page.
 
-> [!IMPORTANT]
-> Review `config.py` before publishing or deploying this repository. Keep
-> account passwords, API keys, and dashboard credentials out of source control,
-> rotate any credentials that have already been committed, and use environment
-> variables or a secret manager.
 
 ## Running FATMA
 
